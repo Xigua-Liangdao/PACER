@@ -1,8 +1,6 @@
 # PACER
 
 
-This package contains a minimal inference-only version of the best AIDE emotion model.
-
 ## Contents
 
 - `predict_aide_emotion.py`: offline inference script
