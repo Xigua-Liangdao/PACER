@@ -12,7 +12,7 @@ This package contains a minimal inference-only version of the best AIDE emotion 
 
 ## Environment
 
-Use the `mmtl` environment or install the pinned packages in `requirements.txt`.
+Install the pinned packages in `requirements.txt`.
 
 ## Run
 
