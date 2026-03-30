@@ -26,7 +26,6 @@ This repository contains only the components required to reproduce PACER inferen
 - `requirements.txt`
   - Minimal pinned dependencies.
 
-This artifact does not include the full research codebase or the full AIDE dataset.
 
 ---
 
@@ -44,7 +43,6 @@ At inference time, the procedure is:
 6. Compute similarity between the adapted image feature and the prompt-conditioned text features.
 7. Output the highest-scoring emotion label.
 
-The repository is intentionally structured so that prompt definitions remain in the manifest rather than in Python constants.
 
 ---
 
@@ -77,13 +75,12 @@ The included demo subset is intended for runnable inspection only. Full-scale ev
 |---|---|---|---|---|
 | ![Anxiety example](demo_dataset/clips/2563/frames/0.jpg) | ![Peace example](demo_dataset/clips/0069/frames/0.jpg) | ![Weariness example](demo_dataset/clips/0823/frames/0.jpg) | ![Happiness example](demo_dataset/clips/1960/frames/0.jpg) | ![Anger example](demo_dataset/clips/2184/frames/0.jpg) |
 
-### D.2 Additional Diversity Examples
 
 | Anxiety | Peace | Weariness | Happiness | Anger |
 |---|---|---|---|---|
 | ![Anxiety sample 2](demo_dataset/clips/0195/frames/22.jpg) | ![Peace sample 2](demo_dataset/clips/1009/frames/22.jpg) | ![Weariness sample 2](demo_dataset/clips/1623/frames/22.jpg) | ![Happiness sample 2](demo_dataset/clips/2488/frames/22.jpg) | ![Anger sample 2](demo_dataset/clips/1500/frames/22.jpg) |
 
-### D.3 Temporal Sampling Illustration
+### D.2 Temporal Sampling Illustration
 
 PACER performs clip-level inference rather than isolated single-frame classification. The following 5-frame example illustrates the temporal sampling pattern used for one demo clip.
 
@@ -333,17 +330,4 @@ Before execution, verify the following:
 
 Once these conditions hold, PACER can be executed directly without network access.
 
----
 
-## M. Limitations
-
-- This repository is not the full AIDE dataset release.
-- This repository is not the full PACER research codebase.
-- The artifact is intended for inference verification, not end-to-end training.
-- Offline execution still requires a previously cached CLIP backbone.
-
----
-
-## N. Citation
-
-If this artifact is used in supplementary review or reproduction notes, please cite the associated PACER paper or project release.
