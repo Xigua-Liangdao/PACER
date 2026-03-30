@@ -175,6 +175,93 @@ python predict_aide_emotion.py \
   --device cuda:0
 ```
 
+### H.3.1 How To Run on the Full Dataset in Practice
+
+For full-dataset inference, the recommended setup is:
+
+1. Prepare one manifest JSON for the full evaluation split.
+2. Ensure that every sample in `samples` contains its `frame_paths`.
+3. Make each entry in `frame_paths` relative to the manifest file location.
+4. Point `--dataset` to that full manifest.
+5. Keep `--checkpoint` pointing to the released PACER checkpoint unless you want to evaluate another compatible checkpoint.
+
+The current script resolves paths with the following rule:
+
+- the manifest is loaded from `--dataset`
+- each `frame_paths` entry is resolved relative to the directory containing that manifest
+
+So if the full manifest is stored at:
+
+```text
+/data/full_aide/manifest_full.json
+```
+
+and one sample contains:
+
+```json
+"frame_paths": [
+  "clips/0001/frames/0.jpg",
+  "clips/0001/frames/11.jpg",
+  "clips/0001/frames/22.jpg",
+  "clips/0001/frames/33.jpg",
+  "clips/0001/frames/44.jpg"
+]
+```
+
+then PACER will look for the frames at:
+
+```text
+/data/full_aide/clips/0001/frames/0.jpg
+/data/full_aide/clips/0001/frames/11.jpg
+/data/full_aide/clips/0001/frames/22.jpg
+/data/full_aide/clips/0001/frames/33.jpg
+/data/full_aide/clips/0001/frames/44.jpg
+```
+
+This means you do not need to run the script from any special working directory. The only requirement is that the manifest paths are correct.
+
+### H.3.2 Recommended Full-Dataset Layout
+
+```text
+/data/full_aide/
+├── manifest_full.json
+└── clips/
+    └── <sequence_id>/frames/*.jpg
+```
+
+### H.3.3 Full-Dataset Command Examples
+
+Run on a full dataset manifest with GPU:
+
+```bash
+python predict_aide_emotion.py \
+  --dataset /data/full_aide/manifest_full.json \
+  --checkpoint assets/h2048_d02.ckpt.pt \
+  --device cuda:0 \
+  --output /data/full_aide/pacer_predictions.json
+```
+
+Run on a full dataset manifest with CPU:
+
+```bash
+python predict_aide_emotion.py \
+  --dataset /data/full_aide/manifest_full.json \
+  --checkpoint assets/h2048_d02.ckpt.pt \
+  --device cpu \
+  --output /data/full_aide/pacer_predictions.json
+```
+
+### H.3.4 What Must Stay Consistent
+
+For a full manifest, the following fields must stay consistent with the released checkpoint and code:
+
+- `class_labels` should list the target emotion classes in the intended evaluation space
+- `class_prompts` should provide prompt groups for each class label
+- `samples[i].label` should be one of the labels in `class_labels`
+- `samples[i].frame_paths` should point to valid image files
+
+If these conditions are satisfied, the same PACER script used for the demo subset can run on the full dataset without modification.
+
 ### H.4 Custom Output Path
 
 ```bash
@@ -220,6 +307,8 @@ PACER expects the manifest to provide:
   - `source_emotion_label`
 
 This design keeps prompts bundled with the dataset description, making the artifact easier to inspect and easier to transfer to full-scale evaluation data.
+
+For full-dataset use, the most important implementation detail is that `frame_paths` are interpreted relative to the manifest location.
 
 ---
 

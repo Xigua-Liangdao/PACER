@@ -89,7 +89,7 @@ def load_adapter_weights(adapter, state, device):
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Run minimal AIDE emotion inference")
+    parser = argparse.ArgumentParser(description="Run PACER emotion inference")
     parser.add_argument("--dataset", default="demo_dataset/manifest.json")
     parser.add_argument("--checkpoint", default="assets/h2048_d02.ckpt.pt")
     parser.add_argument("--device", default="cuda:0")

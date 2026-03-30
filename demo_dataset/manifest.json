@@ -1,5 +1,5 @@
 {
-  "name": "AIDE demo dataset",
+  "name": "PACER demo subset",
   "description": "25 demo clips sampled from the deterministic test split. Each clip stores 5 sampled in-cabin frames and the prompt group for its label.",
   "class_labels": [
     "Anxiety",
