@@ -1,4 +1,5 @@
-# AIDE CLIP Minimal Submission
+# AIDE+
+
 
 This package contains a minimal inference-only version of the best AIDE emotion model.
 
