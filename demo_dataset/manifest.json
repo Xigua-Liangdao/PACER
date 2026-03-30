@@ -1,0 +1,585 @@
+{
+  "name": "AIDE demo dataset",
+  "description": "25 demo clips sampled from the deterministic test split. Each clip stores 5 sampled in-cabin frames and the prompt group for its label.",
+  "class_labels": [
+    "Anxiety",
+    "Peace",
+    "Weariness",
+    "Happiness",
+    "Anger"
+  ],
+  "class_prompts": {
+    "Anxiety": [
+      "Driver is Anxiety.",
+      "The driver's emotional state is Anxiety.",
+      "In this cabin, the driver's emotion is Anxiety.",
+      "This driving clip shows a Anxiety driver.",
+      "The person behind the wheel appears Anxiety.",
+      "Emotion label for the driver: Anxiety.",
+      "Current driver affect: Anxiety."
+    ],
+    "Peace": [
+      "Driver is Peace.",
+      "The driver's emotional state is Peace.",
+      "In this cabin, the driver's emotion is Peace.",
+      "This driving clip shows a Peace driver.",
+      "The person behind the wheel appears Peace.",
+      "Emotion label for the driver: Peace.",
+      "Current driver affect: Peace."
+    ],
+    "Weariness": [
+      "Driver is Weariness.",
+      "The driver's emotional state is Weariness.",
+      "In this cabin, the driver's emotion is Weariness.",
+      "This driving clip shows a Weariness driver.",
+      "The person behind the wheel appears Weariness.",
+      "Emotion label for the driver: Weariness.",
+      "Current driver affect: Weariness."
+    ],
+    "Happiness": [
+      "Driver is Happiness.",
+      "The driver's emotional state is Happiness.",
+      "In this cabin, the driver's emotion is Happiness.",
+      "This driving clip shows a Happiness driver.",
+      "The person behind the wheel appears Happiness.",
+      "Emotion label for the driver: Happiness.",
+      "Current driver affect: Happiness."
+    ],
+    "Anger": [
+      "Driver is Anger.",
+      "The driver's emotional state is Anger.",
+      "In this cabin, the driver's emotion is Anger.",
+      "This driving clip shows a Anger driver.",
+      "The person behind the wheel appears Anger.",
+      "Emotion label for the driver: Anger.",
+      "Current driver affect: Anger."
+    ]
+  },
+  "samples": [
+    {
+      "sequence_id": "2563",
+      "label": "Anxiety",
+      "label_prompts": [
+        "Driver is Anxiety.",
+        "The driver's emotional state is Anxiety.",
+        "In this cabin, the driver's emotion is Anxiety.",
+        "This driving clip shows a Anxiety driver.",
+        "The person behind the wheel appears Anxiety.",
+        "Emotion label for the driver: Anxiety.",
+        "Current driver affect: Anxiety."
+      ],
+      "frame_paths": [
+        "clips/2563/frames/0.jpg",
+        "clips/2563/frames/11.jpg",
+        "clips/2563/frames/22.jpg",
+        "clips/2563/frames/33.jpg",
+        "clips/2563/frames/44.jpg"
+      ],
+      "source_emotion_label": "Anxiety"
+    },
+    {
+      "sequence_id": "0195",
+      "label": "Anxiety",
+      "label_prompts": [
+        "Driver is Anxiety.",
+        "The driver's emotional state is Anxiety.",
+        "In this cabin, the driver's emotion is Anxiety.",
+        "This driving clip shows a Anxiety driver.",
+        "The person behind the wheel appears Anxiety.",
+        "Emotion label for the driver: Anxiety.",
+        "Current driver affect: Anxiety."
+      ],
+      "frame_paths": [
+        "clips/0195/frames/0.jpg",
+        "clips/0195/frames/11.jpg",
+        "clips/0195/frames/22.jpg",
+        "clips/0195/frames/33.jpg",
+        "clips/0195/frames/44.jpg"
+      ],
+      "source_emotion_label": "Anxiety"
+    },
+    {
+      "sequence_id": "0881",
+      "label": "Anxiety",
+      "label_prompts": [
+        "Driver is Anxiety.",
+        "The driver's emotional state is Anxiety.",
+        "In this cabin, the driver's emotion is Anxiety.",
+        "This driving clip shows a Anxiety driver.",
+        "The person behind the wheel appears Anxiety.",
+        "Emotion label for the driver: Anxiety.",
+        "Current driver affect: Anxiety."
+      ],
+      "frame_paths": [
+        "clips/0881/frames/0.jpg",
+        "clips/0881/frames/11.jpg",
+        "clips/0881/frames/22.jpg",
+        "clips/0881/frames/33.jpg",
+        "clips/0881/frames/44.jpg"
+      ],
+      "source_emotion_label": "Anxiety"
+    },
+    {
+      "sequence_id": "1266",
+      "label": "Anxiety",
+      "label_prompts": [
+        "Driver is Anxiety.",
+        "The driver's emotional state is Anxiety.",
+        "In this cabin, the driver's emotion is Anxiety.",
+        "This driving clip shows a Anxiety driver.",
+        "The person behind the wheel appears Anxiety.",
+        "Emotion label for the driver: Anxiety.",
+        "Current driver affect: Anxiety."
+      ],
+      "frame_paths": [
+        "clips/1266/frames/0.jpg",
+        "clips/1266/frames/11.jpg",
+        "clips/1266/frames/22.jpg",
+        "clips/1266/frames/33.jpg",
+        "clips/1266/frames/44.jpg"
+      ],
+      "source_emotion_label": "Anxiety"
+    },
+    {
+      "sequence_id": "0320",
+      "label": "Anxiety",
+      "label_prompts": [
+        "Driver is Anxiety.",
+        "The driver's emotional state is Anxiety.",
+        "In this cabin, the driver's emotion is Anxiety.",
+        "This driving clip shows a Anxiety driver.",
+        "The person behind the wheel appears Anxiety.",
+        "Emotion label for the driver: Anxiety.",
+        "Current driver affect: Anxiety."
+      ],
+      "frame_paths": [
+        "clips/0320/frames/0.jpg",
+        "clips/0320/frames/11.jpg",
+        "clips/0320/frames/22.jpg",
+        "clips/0320/frames/33.jpg",
+        "clips/0320/frames/44.jpg"
+      ],
+      "source_emotion_label": "Anxiety"
+    },
+    {
+      "sequence_id": "0069",
+      "label": "Peace",
+      "label_prompts": [
+        "Driver is Peace.",
+        "The driver's emotional state is Peace.",
+        "In this cabin, the driver's emotion is Peace.",
+        "This driving clip shows a Peace driver.",
+        "The person behind the wheel appears Peace.",
+        "Emotion label for the driver: Peace.",
+        "Current driver affect: Peace."
+      ],
+      "frame_paths": [
+        "clips/0069/frames/0.jpg",
+        "clips/0069/frames/11.jpg",
+        "clips/0069/frames/22.jpg",
+        "clips/0069/frames/33.jpg",
+        "clips/0069/frames/44.jpg"
+      ],
+      "source_emotion_label": "Peace"
+    },
+    {
+      "sequence_id": "1009",
+      "label": "Peace",
+      "label_prompts": [
+        "Driver is Peace.",
+        "The driver's emotional state is Peace.",
+        "In this cabin, the driver's emotion is Peace.",
+        "This driving clip shows a Peace driver.",
+        "The person behind the wheel appears Peace.",
+        "Emotion label for the driver: Peace.",
+        "Current driver affect: Peace."
+      ],
+      "frame_paths": [
+        "clips/1009/frames/0.jpg",
+        "clips/1009/frames/11.jpg",
+        "clips/1009/frames/22.jpg",
+        "clips/1009/frames/33.jpg",
+        "clips/1009/frames/44.jpg"
+      ],
+      "source_emotion_label": "Peace"
+    },
+    {
+      "sequence_id": "2712",
+      "label": "Peace",
+      "label_prompts": [
+        "Driver is Peace.",
+        "The driver's emotional state is Peace.",
+        "In this cabin, the driver's emotion is Peace.",
+        "This driving clip shows a Peace driver.",
+        "The person behind the wheel appears Peace.",
+        "Emotion label for the driver: Peace.",
+        "Current driver affect: Peace."
+      ],
+      "frame_paths": [
+        "clips/2712/frames/0.jpg",
+        "clips/2712/frames/11.jpg",
+        "clips/2712/frames/22.jpg",
+        "clips/2712/frames/33.jpg",
+        "clips/2712/frames/44.jpg"
+      ],
+      "source_emotion_label": "Peace"
+    },
+    {
+      "sequence_id": "1480",
+      "label": "Peace",
+      "label_prompts": [
+        "Driver is Peace.",
+        "The driver's emotional state is Peace.",
+        "In this cabin, the driver's emotion is Peace.",
+        "This driving clip shows a Peace driver.",
+        "The person behind the wheel appears Peace.",
+        "Emotion label for the driver: Peace.",
+        "Current driver affect: Peace."
+      ],
+      "frame_paths": [
+        "clips/1480/frames/0.jpg",
+        "clips/1480/frames/11.jpg",
+        "clips/1480/frames/22.jpg",
+        "clips/1480/frames/33.jpg",
+        "clips/1480/frames/44.jpg"
+      ],
+      "source_emotion_label": "Peace"
+    },
+    {
+      "sequence_id": "2524",
+      "label": "Peace",
+      "label_prompts": [
+        "Driver is Peace.",
+        "The driver's emotional state is Peace.",
+        "In this cabin, the driver's emotion is Peace.",
+        "This driving clip shows a Peace driver.",
+        "The person behind the wheel appears Peace.",
+        "Emotion label for the driver: Peace.",
+        "Current driver affect: Peace."
+      ],
+      "frame_paths": [
+        "clips/2524/frames/0.jpg",
+        "clips/2524/frames/11.jpg",
+        "clips/2524/frames/22.jpg",
+        "clips/2524/frames/33.jpg",
+        "clips/2524/frames/44.jpg"
+      ],
+      "source_emotion_label": "Peace"
+    },
+    {
+      "sequence_id": "0823",
+      "label": "Weariness",
+      "label_prompts": [
+        "Driver is Weariness.",
+        "The driver's emotional state is Weariness.",
+        "In this cabin, the driver's emotion is Weariness.",
+        "This driving clip shows a Weariness driver.",
+        "The person behind the wheel appears Weariness.",
+        "Emotion label for the driver: Weariness.",
+        "Current driver affect: Weariness."
+      ],
+      "frame_paths": [
+        "clips/0823/frames/0.jpg",
+        "clips/0823/frames/11.jpg",
+        "clips/0823/frames/22.jpg",
+        "clips/0823/frames/33.jpg",
+        "clips/0823/frames/44.jpg"
+      ],
+      "source_emotion_label": "Weariness"
+    },
+    {
+      "sequence_id": "0209",
+      "label": "Weariness",
+      "label_prompts": [
+        "Driver is Weariness.",
+        "The driver's emotional state is Weariness.",
+        "In this cabin, the driver's emotion is Weariness.",
+        "This driving clip shows a Weariness driver.",
+        "The person behind the wheel appears Weariness.",
+        "Emotion label for the driver: Weariness.",
+        "Current driver affect: Weariness."
+      ],
+      "frame_paths": [
+        "clips/0209/frames/0.jpg",
+        "clips/0209/frames/11.jpg",
+        "clips/0209/frames/22.jpg",
+        "clips/0209/frames/33.jpg",
+        "clips/0209/frames/44.jpg"
+      ],
+      "source_emotion_label": "Weariness"
+    },
+    {
+      "sequence_id": "1623",
+      "label": "Weariness",
+      "label_prompts": [
+        "Driver is Weariness.",
+        "The driver's emotional state is Weariness.",
+        "In this cabin, the driver's emotion is Weariness.",
+        "This driving clip shows a Weariness driver.",
+        "The person behind the wheel appears Weariness.",
+        "Emotion label for the driver: Weariness.",
+        "Current driver affect: Weariness."
+      ],
+      "frame_paths": [
+        "clips/1623/frames/0.jpg",
+        "clips/1623/frames/11.jpg",
+        "clips/1623/frames/22.jpg",
+        "clips/1623/frames/33.jpg",
+        "clips/1623/frames/44.jpg"
+      ],
+      "source_emotion_label": "Weariness"
+    },
+    {
+      "sequence_id": "1622",
+      "label": "Weariness",
+      "label_prompts": [
+        "Driver is Weariness.",
+        "The driver's emotional state is Weariness.",
+        "In this cabin, the driver's emotion is Weariness.",
+        "This driving clip shows a Weariness driver.",
+        "The person behind the wheel appears Weariness.",
+        "Emotion label for the driver: Weariness.",
+        "Current driver affect: Weariness."
+      ],
+      "frame_paths": [
+        "clips/1622/frames/0.jpg",
+        "clips/1622/frames/11.jpg",
+        "clips/1622/frames/22.jpg",
+        "clips/1622/frames/33.jpg",
+        "clips/1622/frames/44.jpg"
+      ],
+      "source_emotion_label": "Weariness"
+    },
+    {
+      "sequence_id": "1649",
+      "label": "Weariness",
+      "label_prompts": [
+        "Driver is Weariness.",
+        "The driver's emotional state is Weariness.",
+        "In this cabin, the driver's emotion is Weariness.",
+        "This driving clip shows a Weariness driver.",
+        "The person behind the wheel appears Weariness.",
+        "Emotion label for the driver: Weariness.",
+        "Current driver affect: Weariness."
+      ],
+      "frame_paths": [
+        "clips/1649/frames/0.jpg",
+        "clips/1649/frames/11.jpg",
+        "clips/1649/frames/22.jpg",
+        "clips/1649/frames/33.jpg",
+        "clips/1649/frames/44.jpg"
+      ],
+      "source_emotion_label": "Weariness"
+    },
+    {
+      "sequence_id": "1960",
+      "label": "Happiness",
+      "label_prompts": [
+        "Driver is Happiness.",
+        "The driver's emotional state is Happiness.",
+        "In this cabin, the driver's emotion is Happiness.",
+        "This driving clip shows a Happiness driver.",
+        "The person behind the wheel appears Happiness.",
+        "Emotion label for the driver: Happiness.",
+        "Current driver affect: Happiness."
+      ],
+      "frame_paths": [
+        "clips/1960/frames/0.jpg",
+        "clips/1960/frames/11.jpg",
+        "clips/1960/frames/22.jpg",
+        "clips/1960/frames/33.jpg",
+        "clips/1960/frames/44.jpg"
+      ],
+      "source_emotion_label": "Happiness"
+    },
+    {
+      "sequence_id": "1932",
+      "label": "Happiness",
+      "label_prompts": [
+        "Driver is Happiness.",
+        "The driver's emotional state is Happiness.",
+        "In this cabin, the driver's emotion is Happiness.",
+        "This driving clip shows a Happiness driver.",
+        "The person behind the wheel appears Happiness.",
+        "Emotion label for the driver: Happiness.",
+        "Current driver affect: Happiness."
+      ],
+      "frame_paths": [
+        "clips/1932/frames/0.jpg",
+        "clips/1932/frames/11.jpg",
+        "clips/1932/frames/22.jpg",
+        "clips/1932/frames/33.jpg",
+        "clips/1932/frames/44.jpg"
+      ],
+      "source_emotion_label": "Happiness"
+    },
+    {
+      "sequence_id": "2861",
+      "label": "Happiness",
+      "label_prompts": [
+        "Driver is Happiness.",
+        "The driver's emotional state is Happiness.",
+        "In this cabin, the driver's emotion is Happiness.",
+        "This driving clip shows a Happiness driver.",
+        "The person behind the wheel appears Happiness.",
+        "Emotion label for the driver: Happiness.",
+        "Current driver affect: Happiness."
+      ],
+      "frame_paths": [
+        "clips/2861/frames/0.jpg",
+        "clips/2861/frames/11.jpg",
+        "clips/2861/frames/22.jpg",
+        "clips/2861/frames/33.jpg",
+        "clips/2861/frames/44.jpg"
+      ],
+      "source_emotion_label": "Happiness"
+    },
+    {
+      "sequence_id": "1340",
+      "label": "Happiness",
+      "label_prompts": [
+        "Driver is Happiness.",
+        "The driver's emotional state is Happiness.",
+        "In this cabin, the driver's emotion is Happiness.",
+        "This driving clip shows a Happiness driver.",
+        "The person behind the wheel appears Happiness.",
+        "Emotion label for the driver: Happiness.",
+        "Current driver affect: Happiness."
+      ],
+      "frame_paths": [
+        "clips/1340/frames/0.jpg",
+        "clips/1340/frames/11.jpg",
+        "clips/1340/frames/22.jpg",
+        "clips/1340/frames/33.jpg",
+        "clips/1340/frames/44.jpg"
+      ],
+      "source_emotion_label": "Happiness"
+    },
+    {
+      "sequence_id": "2488",
+      "label": "Happiness",
+      "label_prompts": [
+        "Driver is Happiness.",
+        "The driver's emotional state is Happiness.",
+        "In this cabin, the driver's emotion is Happiness.",
+        "This driving clip shows a Happiness driver.",
+        "The person behind the wheel appears Happiness.",
+        "Emotion label for the driver: Happiness.",
+        "Current driver affect: Happiness."
+      ],
+      "frame_paths": [
+        "clips/2488/frames/0.jpg",
+        "clips/2488/frames/11.jpg",
+        "clips/2488/frames/22.jpg",
+        "clips/2488/frames/33.jpg",
+        "clips/2488/frames/44.jpg"
+      ],
+      "source_emotion_label": "happiness"
+    },
+    {
+      "sequence_id": "2184",
+      "label": "Anger",
+      "label_prompts": [
+        "Driver is Anger.",
+        "The driver's emotional state is Anger.",
+        "In this cabin, the driver's emotion is Anger.",
+        "This driving clip shows a Anger driver.",
+        "The person behind the wheel appears Anger.",
+        "Emotion label for the driver: Anger.",
+        "Current driver affect: Anger."
+      ],
+      "frame_paths": [
+        "clips/2184/frames/0.jpg",
+        "clips/2184/frames/11.jpg",
+        "clips/2184/frames/22.jpg",
+        "clips/2184/frames/33.jpg",
+        "clips/2184/frames/44.jpg"
+      ],
+      "source_emotion_label": "Anger"
+    },
+    {
+      "sequence_id": "1500",
+      "label": "Anger",
+      "label_prompts": [
+        "Driver is Anger.",
+        "The driver's emotional state is Anger.",
+        "In this cabin, the driver's emotion is Anger.",
+        "This driving clip shows a Anger driver.",
+        "The person behind the wheel appears Anger.",
+        "Emotion label for the driver: Anger.",
+        "Current driver affect: Anger."
+      ],
+      "frame_paths": [
+        "clips/1500/frames/0.jpg",
+        "clips/1500/frames/11.jpg",
+        "clips/1500/frames/22.jpg",
+        "clips/1500/frames/33.jpg",
+        "clips/1500/frames/44.jpg"
+      ],
+      "source_emotion_label": "Anger"
+    },
+    {
+      "sequence_id": "2037",
+      "label": "Anger",
+      "label_prompts": [
+        "Driver is Anger.",
+        "The driver's emotional state is Anger.",
+        "In this cabin, the driver's emotion is Anger.",
+        "This driving clip shows a Anger driver.",
+        "The person behind the wheel appears Anger.",
+        "Emotion label for the driver: Anger.",
+        "Current driver affect: Anger."
+      ],
+      "frame_paths": [
+        "clips/2037/frames/0.jpg",
+        "clips/2037/frames/11.jpg",
+        "clips/2037/frames/22.jpg",
+        "clips/2037/frames/33.jpg",
+        "clips/2037/frames/44.jpg"
+      ],
+      "source_emotion_label": "Anger"
+    },
+    {
+      "sequence_id": "0624",
+      "label": "Anger",
+      "label_prompts": [
+        "Driver is Anger.",
+        "The driver's emotional state is Anger.",
+        "In this cabin, the driver's emotion is Anger.",
+        "This driving clip shows a Anger driver.",
+        "The person behind the wheel appears Anger.",
+        "Emotion label for the driver: Anger.",
+        "Current driver affect: Anger."
+      ],
+      "frame_paths": [
+        "clips/0624/frames/0.jpg",
+        "clips/0624/frames/11.jpg",
+        "clips/0624/frames/22.jpg",
+        "clips/0624/frames/33.jpg",
+        "clips/0624/frames/44.jpg"
+      ],
+      "source_emotion_label": "Anger"
+    },
+    {
+      "sequence_id": "0935",
+      "label": "Anger",
+      "label_prompts": [
+        "Driver is Anger.",
+        "The driver's emotional state is Anger.",
+        "In this cabin, the driver's emotion is Anger.",
+        "This driving clip shows a Anger driver.",
+        "The person behind the wheel appears Anger.",
+        "Emotion label for the driver: Anger.",
+        "Current driver affect: Anger."
+      ],
+      "frame_paths": [
+        "clips/0935/frames/0.jpg",
+        "clips/0935/frames/11.jpg",
+        "clips/0935/frames/22.jpg",
+        "clips/0935/frames/33.jpg",
+        "clips/0935/frames/44.jpg"
+      ],
+      "source_emotion_label": "Anger"
+    }
+  ]
+}
